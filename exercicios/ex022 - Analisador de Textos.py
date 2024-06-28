@@ -1,0 +1,6 @@
+n = str(input('\033[35mDigite seu nome completo:\033[m ')).strip()
+print('\033[32mAnalisando seu nome...\033[m')
+print('Seu nome em maiúsculas é \033[4m{}\033[m.'.format(n.upper()))
+print('Seu nome em minúsculas é \033[4m{}\033[m.'.format(n.lower()))
+print('Seu nome tem \033[4m{} letras\033[m.'.format(len(''.join(n.split()))))
+print('Seu primeiro nome é \033[4m{}\033[m e ele tem \033[4m{} letras\033[m.'.format(n.split()[0], len(n.split()[0])))

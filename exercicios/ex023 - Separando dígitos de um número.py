@@ -1,0 +1,6 @@
+n = int((input('\033[36mDigite um número de 0 a 9999:\033[m ')))
+print('Analisando o número \033[4m{}\033[m'.format(n))
+print('\033[31mMilhar: {}\033[m'.format(n // 1000 % 10))
+print('\033[32mCentena: {}\033[m'.format(n // 100 % 10))
+print('\033[33mDezena: {}\033[m'.format(n // 10 % 10))
+print('\033[34mUnidade: {}\033[m'.format(n // 1 % 10))
